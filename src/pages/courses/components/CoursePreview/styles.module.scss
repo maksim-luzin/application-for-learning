@@ -1,0 +1,28 @@
+.course-preview__wrapper {
+  padding: 0.5rem;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  div {
+    border-width: 0;
+  }
+}
+
+.course-preview__image {
+  height: 10rem;
+}
+
+.course-preview__title {
+  font-size: 0.95rem;
+  height: 2.5rem;
+  text-decoration: none;
+}
+
+.course-preview__skills {
+  margin-top: 0.5rem;
+  height: 9rem;
+
+  li {
+    list-style-type: none;
+  }
+}
