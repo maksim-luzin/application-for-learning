@@ -1,0 +1,55 @@
+.lesson-preview__wrapper {
+  padding: 0.5rem;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  div {
+    border-width: 0;
+  }
+}
+
+.lesson-preview__image {
+  height: 10rem;
+}
+
+.lesson-preview__title {
+  font-size: 0.95rem;
+  height: 2.5rem;
+}
+
+.lesson-preview__skills {
+  margin-top: 0.5rem;
+  height: 9rem;
+}
+
+@media (max-width: 1000px) {
+  .lesson-preview__image {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .lesson-preview__image {
+    height: 7rem;
+  }
+
+  .lesson-preview__title {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .course-view__header {
+    height: 7rem;
+  }
+
+  .lesson-preview__image {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .lesson-preview__image {
+    height: 7rem;
+  }
+}
