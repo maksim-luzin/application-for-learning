@@ -11,3 +11,4 @@ export type { ISetActiveCoursePayload } from "./setActiveCoursePayload";
 export type { IUpdateLessonPosition } from "./updateLessonPosition";
 export type { INotification } from "./notification";
 export type { IVideoPlayerProps } from "./videoPlayerProps";
+export type { IVideoPlayerPreviewProps } from "./videoPlayerPreviewProps";
