@@ -1,0 +1,57 @@
+.notFoundPage {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.notFound {
+  font-size: 7rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageStr1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #696969;
+  font-size: 1.2rem;
+  font-weight: 200 !important;
+  text-transform: uppercase;
+  word-spacing: -0.2rem;
+}
+
+.messageStr2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
+  font-size: 0.2rem;
+  font-weight: 300 !important;
+  word-spacing: -0.1rem;
+  border-bottom: #888 solid 1px;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btnHomePage {
+  height: 1.4848rem;
+  font-size: .2rem !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7a7a7a;
+  color: #444;
+  background-color: #ebebeb;
+
+  &:hover{
+    background-color: #bbb;
+  }
+}
