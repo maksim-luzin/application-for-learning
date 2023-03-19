@@ -18,6 +18,15 @@ export const coursesApi = createApi({
     }),
     getCourses: builder.query<ICoursesPreview, void>({
       query: () => "/",
+      transformResponse(baseQueryReturnValue: ICoursesPreview) {
+        return {
+          courses: [...baseQueryReturnValue.courses].sort(
+            (a, b) =>
+              new Date(b.launchDate).valueOf() -
+              new Date(a.launchDate).valueOf()
+          ),
+        };
+      },
     }),
   }),
 });
